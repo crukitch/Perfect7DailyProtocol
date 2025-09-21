@@ -341,14 +341,6 @@ index.html
 </style>
 ```
 
-</head>
-<body>
-    <div class="header">
-        <h1>Perfect7Daily</h1>
-        <p>Implementation Protocol</p>
-    </div>
-
-```
 <div class="container">
     <div class="disclaimer">
         <h3>ABOUT THE CREATOR & DISCLAIMER</h3>
