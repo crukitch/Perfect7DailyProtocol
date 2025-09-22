@@ -795,6 +795,18 @@
             selectedLevelDiv.style.display = 'block';
             levelDisplay.textContent = `Level ${level} (Energy-based): ${level} cup${level > 1 ? 's' : ''} daily across 7 servings`;
         }
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const faqQuestions = document.querySelectorAll('.faq-question');
+
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', function() {
+                    const faqAnswer = this.nextElementSibling;
+                    faqAnswer.classList.toggle('active');
+                });
+            });
+        });
     </script>
+
 </body>
 </html>
